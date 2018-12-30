@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>You do</title>
+    <script>
+        function sayYeah() {
+            alert("You must love me =)). Let me show you what i'm thinking");
+            setTimeout("location.href = 'http://mp3.chiasenhac.vn/mp3/vietnam/v-pop/thang-dien~justatee-phuong-ly~tsvb3s6cqqw4kv.html';", 500);
+        }
+
+        function cantOver()
+        {
+            var x = Math.round(Math.random() * window.innerWidth);
+            var y = Math.round(Math.random() * window.innerHeight);
+            document.getElementById('btnNo').style.left = x + 'px';
+            document.getElementById('btnNo').style.top = y + 'px';
+        }
+
+    </script>
+</head>
+<body style="background-size: cover; background: url('Original image_ 1920x1280.jpeg') no-repeat center;">
+<h1 style="position:absolute;left: 566px;top: 28px;color: yellowgreen;">Do you love me?</h1>
+<input type="button" id="btnYes" onclick="sayYeah()" value="  YESSSSSS!!!!  " style="position:absolute;left: 535px;top: 120px;background: yellow;color: red;">
+<input type="button" id="btnNo" onmouseover="cantOver()" value="  NOOOOOOOOO.....  " style="position:absolute;left: 669px;top: 120px;background: black;color: yellow;">
+</body>
+</html>
